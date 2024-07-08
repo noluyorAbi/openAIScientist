@@ -2,6 +2,8 @@
 
 `openAIScientist` is an R package that generates comprehensive scientific analysis using OpenAI's API. The analysis is output in markdown format, making it easy to integrate into various documentation workflows.
 
+`openAIScientist` was designed to provide users with a quick overview and analysis of their datasets, helping them to understand and interpret their data more efficiently.
+
 <div align="center">
   <img src="https://hits.sh/github.com/noluyorAbi/openaAIScientist.svg?style=for-the-badge&label=TOTAL%20VIEWS&labelColor=000000&logo=r" />
 </div>
@@ -133,6 +135,5 @@ If you find any issues or have suggestions for improvements, please create an is
 This package is licensed under the GPL-3 License.
 
 ---
-
-Made with ♥ by [noluyorAbi](https://github.com/noluyorAbi) for FortStaSoft @ LMU Munich.
+Made with ♥ by [noluyorAbi](https://github.com/noluyorAbi) for FortStaSoft @ LMU Munich, July 2024.
 
