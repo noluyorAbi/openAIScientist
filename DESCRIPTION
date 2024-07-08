@@ -1,12 +1,20 @@
 Package: openAIScientist
-Type: Package
-Title: Scientific Data Analysis and Reporting using OpenAI
+Title: Comprehensive Scientific Analysis Using OpenAI
 Version: 0.1.0
-Author: Your Name
-Maintainer: Your Name <your.email@example.com>
-Description: Provides functions for automated scientific data analysis, explanation, and reporting using the OpenAI API.
-License: What license it uses
+Authors@R: 
+    person(given = "Alperen",
+           family = "Adatepe",
+           email = "Adatepe.Alperen@campus.lmu.de",
+           role = c("aut", "cre"))
+Description: This package generates comprehensive scientific analysis using OpenAI's API.
+Depends: 
+    R (>= 3.5.0)
+Imports: 
+    httr,
+    readr,
+    roxygen2
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Imports: httr
+Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
