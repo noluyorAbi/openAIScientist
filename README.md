@@ -8,18 +8,20 @@
 
 ## Installation 💻
 
-First, install the required dependencies if you haven't already:
-
-```r
-install.packages(c("httr", "readr", "devtools"))
-```
-
-Then, you can install the package using `devtools`:
+First, install the package along with its dependencies if you haven't already:
 
 ```r
 library(devtools)
 install_github("noluyorAbi/openaAIScientist")
 ```
+
+## Other Dependencies 📦
+
+The `openAIScientist` package relies on the following R packages, which will be installed automatically:
+
+- `httr`: For HTTP requests.
+- `utils`: For utility functions like capturing output.
+- `readr`: For reading and writing data.
 
 ## Usage 🚀
 
@@ -59,7 +61,7 @@ api_key <- Sys.getenv("OPENAI_API_KEY")
 analysis <- generate_scientific_analysis(data, api_key, "Analysis")
 
 # Additional Prompt for custom uses
-#analysis <- generate_scientific_analysis(data, api_key, "Analysis", "Write the Analysis in German")
+# analysis <- generate_scientific_analysis(data, api_key, "Analysis", "Write the Analysis in German")
 
 # Print the analysis in the console if wanted
 # cat(analysis)
@@ -133,3 +135,4 @@ This package is licensed under the GPL-3 License.
 ---
 
 Made with ♥ by [noluyorAbi](https://github.com/noluyorAbi) for FortStaSoft @ LMU Munich.
+
