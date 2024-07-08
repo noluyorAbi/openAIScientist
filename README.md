@@ -2,8 +2,8 @@
 
 `openAIScientist` is an R package that generates comprehensive scientific analysis using OpenAI's API. The analysis is output in markdown format, making it easy to integrate into various documentation workflows.
 
-<div style="text-align: center; margin: 20px;">
-[![Hits](https://hits.sh/github.com/noluyorAbi/openaAIScientist.svg?style=for-the-badge&label=TOTAL%20VIEWS&labelColor=000000&logo=r)](https://hits.sh/github.com/noluyorAbi/openaAIScientist/)
+<div align="center">
+  <img src="https://hits.sh/github.com/noluyorAbi/openaAIScientist.svg?style=for-the-badge&label=TOTAL%20VIEWS&labelColor=000000&logo=r" />
 </div>
 
 ## Installation
