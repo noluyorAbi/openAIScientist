@@ -11,9 +11,8 @@ Depends:
     R (>= 3.5.0)
 Imports: 
     httr,
-    readr,
-    roxygen2
-License: GPL-3
+    utils,
+License: GPL-3 | file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

@@ -28,7 +28,11 @@ This function generates a comprehensive scientific analysis in markdown format a
 }
 \examples{
 \dontrun{
-data <- data.frame(var1 = rnorm(100), var2 = rnorm(100), outcome = sample(c(0, 1), 100, replace = TRUE))
+data <- data.frame(
+  var1 = rnorm(100),
+  var2 = rnorm(100),
+  outcome = sample(c(0, 1), 100, replace = TRUE)
+)
 api_key <- "your_openai_api_key"
 generate_scientific_analysis(data, api_key, "Analysis")
 }
