@@ -1,0 +1,46 @@
+name: R-CMD-check
+
+on: [push, pull_request]
+
+jobs:
+  R-CMD-check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up R
+      uses: r-lib/actions/setup-r@v2
+
+    - name: Install system dependencies
+      run: |
+        sudo apt-get install -y libxml2-dev
+        sudo apt-get install -y libssl-dev
+        sudo apt-get install -y libcurl4-openssl-dev
+
+    - name: Install R package dependencies
+      run: |
+        install.packages('devtools')
+        devtools::install_deps(dependencies = TRUE)
+      shell: Rscript {0}
+
+    - name: Run R CMD check
+      run: |
+        library(devtools)
+        check()
+      shell: Rscript {0}
+
+    - name: Upload check results
+      if: always() # Ensure logs are uploaded even if the step fails
+      uses: actions/upload-artifact@v2
+      with:
+        name: R-CMD-check-results
+        path: check
+
+    - name: Save R-CMD-check logs
+      if: always() # Ensure logs are uploaded even if the step fails
+      uses: actions/upload-artifact@v2
+      with:
+        name: R-CMD-check-logs
+        path: check

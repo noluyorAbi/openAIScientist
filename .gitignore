@@ -1,0 +1,20 @@
+# R project files
+.Rproj
+.Rproj.user
+
+# Environment files
+*.env
+.Renviron
+.env
+
+# Session files
+session-*
+
+# Temporary files from .md
+*.html
+
+# macOS specific file
+.DS_Store
+
+# R build ignore file
+.Rbuildignore
