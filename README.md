@@ -5,8 +5,13 @@
 `openAIScientist` was designed to provide users with a quick overview and analysis of their datasets, helping them to understand and interpret their data more efficiently.
 
 <div align="center">
-  <img src="https://hits.sh/github.com/noluyorAbi/openaAIScientist.svg?style=for-the-badge&label=TOTAL%20VIEWS&labelColor=000000&logo=r" />
+  <img src="https://hits.sh/github.com/noluyorAbi/openaAIScientist.svg?style=for-the-badge&label=TOTAL%20VIEWS&labelColor=000000&logo=r" style="margin-bottom: 10px; margin-top:10px" />
 </div>
+
+<div align="center">
+  <img src="https://github.com/noluyorAbi/openAIScientist/actions/workflows/R-CMD-check.yml/badge.svg" style="margin-bottom: 10px;" />
+</div>
+
 
 ## Installation 💻
 
