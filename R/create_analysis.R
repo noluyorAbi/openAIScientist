@@ -126,12 +126,12 @@ clean_up_table <- function(md_content) {
 #'   outcome = sample(c(0, 1), 100, replace = TRUE)
 #' )
 #' api_key <- "your_openai_api_key"
-#' generate_scientific_analysis(data, api_key, "Analysis")
+#' openAIScientist_generate_scientific_analysis(data, api_key, "Analysis")
 #' }
 #' @importFrom httr POST add_headers content
 #' @importFrom utils capture.output
 #' @export
-generate_scientific_analysis <- function(data, api_key, output_name = "Analysis", additional_prompt = "") {
+openAIScientist_generate_scientific_analysis <- function(data, api_key, output_name = "Analysis", additional_prompt = "") {
   
   cat("Generating data summary...\n")
   

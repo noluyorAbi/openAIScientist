@@ -19,3 +19,5 @@ session-*
 # R build ignore file
 .Rbuildignore
 .Rhistory
+.RData
+TEST-CMD.R
